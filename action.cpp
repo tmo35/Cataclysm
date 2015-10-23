@@ -127,10 +127,8 @@ std::string action_ident(action_id act)
    return "chat";
   case ACTION_LOOK:
    return "look";
-  case ACTION_PUSH: //WIP
-   return "push";
-  case ACTION_PULL: //WIP
-   return "pull";
+  case ACTION_HAUL:         //WIP
+   return "haul";
   case ACTION_INVENTORY:
    return "inventory";
   case ACTION_ORGANIZE:
@@ -259,10 +257,8 @@ std::string action_name(action_id act)
    return "Chat with NPC";
   case ACTION_LOOK:
    return "Look Around";
-  case ACTION_PUSH:
-   return "Push object";  //WIP
-  case ACTION_PULL:
-   return "Pull object";  //WIP
+  case ACTION_HAUL:		//WIP
+   return "Haul Object";
   case ACTION_INVENTORY:
    return "Open Inventory";
   case ACTION_ORGANIZE:

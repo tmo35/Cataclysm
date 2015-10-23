@@ -171,9 +171,8 @@ class game
   void add_artifact_messages(std::vector<art_effect_passive> effects);
 
   point look_around();// Look at nearby terrain	';'
-/*			//WIP
-  void push();
-  void pull();
+/*
+* void Haul(); //WIP
 */
   char inv(std::string title = "Inventory:");
   std::vector<item> multidrop();

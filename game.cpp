@@ -1289,12 +1289,8 @@ void game::get_input()
    look_around();
    break;
 /*				WIP
-  case ACTION_PUSH:
-   push();
-   break;
-
-  case ACTION_PULL:
-   pull();
+  case ACTION_HAUL:
+   haul(); 
    break;
 */
   case ACTION_INVENTORY: {
@@ -4652,11 +4648,7 @@ point game::look_around()
 }
 
 /*                      WIP
-void game::push(){
-
-}
-
-void game::pull(){
+void game::haul(){
 
 }
 */
