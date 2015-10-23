@@ -1288,7 +1288,15 @@ void game::get_input()
   case ACTION_LOOK:
    look_around();
    break;
+/*				WIP
+  case ACTION_PUSH:
+   push();
+   break;
 
+  case ACTION_PULL:
+   pull();
+   break;
+*/
   case ACTION_INVENTORY: {
    bool has = false;
    do {
@@ -4642,6 +4650,16 @@ point game::look_around()
   return point(lx, ly);
  return point(-1, -1);
 }
+
+/*                      WIP
+void game::push(){
+
+}
+
+void game::pull(){
+
+}
+*/
 
 // Pick up items at (posx, posy).
 void game::pickup(int posx, int posy, int min)
